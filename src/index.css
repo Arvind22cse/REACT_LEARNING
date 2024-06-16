@@ -37,3 +37,23 @@ display: inline-block;
 .students p{
   margin: 0;
 }
+.wel_msg{
+  font-size: 2.5em;
+  background-color: rgb(31, 255, 2);
+  color:white;
+  padding: 10px;
+border-radius: 10px;
+margin: 0;
+margin-bottom: 20px;
+
+}
+
+.error_msg{
+  font-size: 2.5em;
+  background-color: rgb(255, 2, 2);
+  color:white;
+  padding: 10px;
+border-radius: 10px;
+margin: 0;
+margin-bottom: 20px;
+}
