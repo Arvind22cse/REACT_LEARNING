@@ -6,6 +6,8 @@ function App() {
     return (
         <>
             <Login isLoggedIn={true} username="Arvind"/>
+            <Login />
+
             <Student name="Arvind" age="20" isStudent={true}/>
             <Student name="TamilSelvan" age={70} isStudent={false}/>
             <Student name="Bharath" age={20} isStudent={true}/>

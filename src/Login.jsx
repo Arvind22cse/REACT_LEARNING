@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 function Login(props){
    
 //    if(props.isLoggedIn){
@@ -9,5 +10,13 @@ function Login(props){
 const welcome=<h2 className="wel_msg">Welcome {props.username}</h2>;
 const error=<h2 className="error_msg">Please login to continue</h2>;
 return(props.isLoggedIn ? welcome:error);
+}
+Login.proptypes={
+    isLoggedIn:PropTypes.bool,
+    username:PropTypes.string,
+}
+Login.defaultProps={
+    isLoggedIn:false,
+    username:"NULL",
 }
 export default Login;
