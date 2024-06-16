@@ -1,15 +1,12 @@
+import React from 'react';
+import Button  from './Button.jsx'; // Corrected import to named import
 
-import Card from './Card.jsx';
 function App() {
-return(
-  <>
- <Card/>
- <Card/>
- <Card/>
- <Card/>
- <Card/>
- <Card/>
-  </>
-);
+    return (
+        
+            <Button />
+       
+    );
 }
-export default App
+
+export default App;
