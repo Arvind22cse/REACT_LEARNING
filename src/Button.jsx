@@ -9,7 +9,7 @@ function Button(){
             cursor: "pointer",
           
     }
-    return (<button style={styles}>Click me</button>); // Added space for readability
+    return (<button style={styles}>Submit</button>); // Added space for readability
 }
 
 export default Button
