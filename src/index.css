@@ -57,3 +57,25 @@ border-radius: 10px;
 margin: 0;
 margin-bottom: 20px;
 }
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  border: 3px solid;
+  background-color: rgb(237, 96, 96);
+
+
+}
+.list-items li{
+  text-align: center;
+  list-style: none;
+  color: rgb(65, 14, 14);
+  margin-top: 10px;
+
+
+}
+.list-items li:hover{
+  color:  rgb(165, 9, 9);
+  cursor: pointer;
+}
